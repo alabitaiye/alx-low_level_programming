@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-* mul - multiplies two integers
-* mut - multiplication function
-* @a: - the first integer
-* @b: - the second integer
+* mul - func checks for a digit (0 through)
+* @a: a - variable
+* @b: b - variable
 * Return: Always 0
 */
 
 int mut(int a, int b)
 {
-	int result = a * b;
-	return (result);
+int mul;
+mul = a * b;
+return (mul);
 }
